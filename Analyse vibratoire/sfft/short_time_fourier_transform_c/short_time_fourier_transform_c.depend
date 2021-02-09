@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1612876585 source:c:\users\abdou\desktop\sfft\short_time_fourier_transform_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../signal.h"
+
+1612870446 c:\users\abdou\desktop\sfft\signal.h
+

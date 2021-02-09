@@ -1,0 +1,20 @@
+09:47:44 **** Incremental Build of configuration Debug for project Reading_accel ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/abdou/Documents/M2 SEM/PFE/Analyse vibratoire/Programmes_mcu/Reading_accel/MPU9250_DRV/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Reading_accel.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\abdou\Documents\M2 SEM\PFE\Analyse vibratoire\Programmes_mcu\Reading_accel\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Reading_accel.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Reading_accel.elf
+ 
+arm-none-eabi-objdump -h -S  Reading_accel.elf  > "Reading_accel.list"
+arm-none-eabi-objcopy  -O binary  Reading_accel.elf  "Reading_accel.bin"
+arm-none-eabi-size   Reading_accel.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22568	    484	   7916	  30968	   78f8	Reading_accel.elf
+Finished building: default.size.stdout
+ 
+Finished building: Reading_accel.bin
+ 
+Finished building: Reading_accel.list
+ 
+
+09:47:46 Build Finished. 0 errors, 0 warnings. (took 2s.468ms)
+

@@ -1,0 +1,10 @@
+22:46:59 **** Incremental Build of configuration Debug for project OPAMP_DSP ****
+make -j4 all 
+arm-none-eabi-size   OPAMP_DSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 110484	    124	  38988	 149596	  2485c	OPAMP_DSP.elf
+Finished building: default.size.stdout
+ 
+
+22:46:59 Build Finished. 0 errors, 0 warnings. (took 773ms)
+

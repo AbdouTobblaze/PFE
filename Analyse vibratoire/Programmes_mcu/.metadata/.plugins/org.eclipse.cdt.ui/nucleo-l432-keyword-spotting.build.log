@@ -1,0 +1,10 @@
+13:03:11 **** Incremental Build of configuration Release for project nucleo-l432-keyword-spotting ****
+make -j4 all 
+arm-none-eabi-size   nucleo-l432-keyword-spotting.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 213420	   1140	   6644	 221204	  36014	nucleo-l432-keyword-spotting.elf
+Finished building: default.size.stdout
+ 
+
+13:03:19 Build Finished. 0 errors, 0 warnings. (took 7s.669ms)
+

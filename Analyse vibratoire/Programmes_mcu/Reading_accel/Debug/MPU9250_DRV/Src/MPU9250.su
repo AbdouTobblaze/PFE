@@ -1,0 +1,6 @@
+MPU9250.c:12:18:MPU9250_Write_Register	24	static
+MPU9250.c:29:18:MPU9250_Read_Data_Registers	40	static
+MPU9250.c:51:18:MPU9250_Read_Config_Registers	40	static
+MPU9250.c:72:18:MPU9250_Initialize	24	static
+MPU9250.c:93:18:MPU9250_Config_accel_scale	24	static
+MPU9250.c:121:18:MPU9250_Config_fifo_int	24	static
